@@ -1,6 +1,6 @@
 # Medium LinkedIn Article
 
-To be updated once the article has been published.
+Explore your LinkedIn data.
 
 Feel free to contact me on LinkedIn: https://www.linkedin.com/in/yrieix.leprince
 
