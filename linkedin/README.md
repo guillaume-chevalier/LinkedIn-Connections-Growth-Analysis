@@ -10,6 +10,6 @@ To be able to run this code you should install `poetry` https://python-poetry.or
 
 Once installed you can run the following in the main directory:
 
-```
-`poetry run jupyter lab .`
+```sh
+poetry run jupyter lab .
 ```
