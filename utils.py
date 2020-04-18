@@ -3,8 +3,8 @@ import pandas as pd
 import seaborn as sns
 
 FIGSIZE = (17, 5)
-FONT = {"family": "sans-serif", "weight": "normal", "size": 16}
-tds = "#17b78c"
+FONT = {"family": "Share Tech Mono", "weight": "normal", "size": 16}
+tds = "#0073b1"
 week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 
 
@@ -117,26 +117,17 @@ def plot_violins_by_gender(df):
 
 
 def plot_bar_name(df):
-    males = df[df.males].first_name.unique()
     fnames = df.first_name.value_counts().head(30)
     names = fnames.index.values
     fnames = fnames.reset_index()
 
     fig, ax = plt.subplots(figsize=FIGSIZE)
-    mask_males = fnames["index"].isin(males)
 
     plt.bar(
-        x=fnames[mask_males].index,
-        height=fnames[mask_males].first_name,
+        x=fnames.index,
+        height=fnames.first_name,
         color=tds,
-        alpha=0.5,
-        label="Male",
-    )
-    plt.bar(
-        x=fnames[~mask_males].index,
-        height=fnames[~mask_males].first_name,
-        color=tds,
-        label="Female",
+        alpha=0.5
     )
 
     plt.title("First Names distribution", fontdict=FONT, y=1.2)
