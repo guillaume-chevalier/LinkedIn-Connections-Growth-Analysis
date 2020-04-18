@@ -1,7 +1,7 @@
 
 # [LinkedIn Connections Analysis](https://github.com/guillaume-chevalier/LinkedIn-Connections-Analysis)
 
->>> Assessing personal growth on LinkedIn
+>>> Assessing personal growth on LinkedIn with charts.
 
 ![](images/eyes_chart.jpg)
 
@@ -258,7 +258,7 @@ I hope for the future of my growth to be even more massive.
 ___
 
 
-You can also find this article on [my blog](https://github.com/guillaume-chevalier). 
+You can also find this article on [my blog](https://guillaume-chevalier.com/assess-linkedin-connections-growth-analysis/). 
 
 
 
