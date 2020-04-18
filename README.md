@@ -1,6 +1,10 @@
 
 # [LinkedIn Connections Analysis](https://github.com/guillaume-chevalier/LinkedIn-Connections-Analysis)
 
+>>> Assessing personal growth on LinkedIn
+
+![](images/eyes_chart.jpg)
+
 For my profile: Guillaume Chevalier
 - https://www.linkedin.com/in/chevalierg/
 - https://github.com/guillaume-chevalier
@@ -15,7 +19,7 @@ For my profile: Guillaume Chevalier
 The code used here is derived from this original article here:
 https://medium.com/@yrieix.leprince_14799/what-does-linkedin-know-about-you-81cd65c69cb
 
-Note: I wasn't able to get gender data as in the original article, so I have simplified the code as [hereby](https://github.com/guillaume-chevalier/LinkedIn-Connections-Analysis). 
+Note: I wasn't able to get gender data as in the original article, so I have simplified the code as [hereby](https://github.com/guillaume-chevalier/LinkedIn-Connections-Analysis).
 
 ## Step 2: run the code below.
 
@@ -155,15 +159,15 @@ plot_bar_name(df)
 ![png](LinkedIn-Connection-Plots_files/LinkedIn-Connection-Plots_10_1.png)
 
 
-Oops. It looks like my network is dominated by males, as 100% of the top most-occuring names above are masculine. Well, unfortunately that is a normal side effect from being way deep into the software industry and having worked on technical/coding stuff since forever. 
+Oops. It looks like my network is dominated by males, as 100% of the top most-occuring names above are masculine. Well, unfortunately that is a normal side effect from being way deep into the software industry and having worked on technical/coding stuff since forever.
 
-## Step 3: enjoy, like, and share! 
+## Step 3: enjoy, like, and share!
 
-You can find the related article on my blog here, and connect with me on LinkedIn and GitHub as well: 
+You can find the related article on my blog here, and connect with me on LinkedIn and GitHub as well:
 - https://www.linkedin.com/in/chevalierg/
 - https://github.com/guillaume-chevalier
 
-Why not do a LinkedIn post about this and tag me whilst linking to the code for others to enjoy as well?
+Why not do a LinkedIn post about this and tag me whilst linking to the code for others to be able to use the code as well?
 
 Thank you!
 
@@ -182,4 +186,3 @@ Thank you!
     [NbConvertApp] Making directory LinkedIn-Connection-Plots_files
     [NbConvertApp] Making directory LinkedIn-Connection-Plots_files
     [NbConvertApp] Writing 4414 bytes to LinkedIn-Connection-Plots.md
-
