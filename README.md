@@ -5,7 +5,7 @@
 
 ![](images/eyes_chart.jpg)
 
-You can use the code in here to try it with your profile. 
+You can use the code in here to try it with your profile.
 
 I've done it with mine now: [Guillaume Chevalier](https://www.linkedin.com/in/chevalierg/). That is me in the picture.
 
@@ -16,18 +16,18 @@ Plotting the number of new connections over week on my LinkedIn account, then th
 
 ## Step 1: Download your data.
 
-Download your connections info on LinkedIn. Navigate on linkedin.com: 
+Download your connections info on LinkedIn. Navigate on linkedin.com:
 
 > `me > settings and privacy > How LinkedIn uses your data > Getting a copy of your data > tick "Connections" under "Want something in particular" > Download archive`
 
-You'll get it by email within 10 minutes or so. 
+You'll get it by email within 10 minutes or so.
 
 ![](images/data-export.png)
 
 
 ## Step 2: run the code below.
 
-I've made the code I used here available on [GitHub](https://github.com/guillaume-chevalier/LinkedIn-Connections-Analysis), and it is built upon the code from this other [related article](https://medium.com/@yrieix.leprince_14799/what-does-linkedin-know-about-you-81cd65c69cb). 
+I've made the code I used here available on [GitHub](https://github.com/guillaume-chevalier/LinkedIn-Connections-Analysis), and it is built upon the code from this other [related article](https://medium.com/@yrieix.leprince_14799/what-does-linkedin-know-about-you-81cd65c69cb).
 
 
 
@@ -140,9 +140,9 @@ plot_cumsum(df)
 ![png](LinkedIn-Connection-Plots_files/LinkedIn-Connection-Plots_10_0.png)
 
 
-Regarding the sustained growth: it seems that what got me the most growth was definitely writing articles and online content, where I linked back to my social media profiles at the end of those pieces of content. 
+Regarding the sustained growth: it seems that what got me the most growth was definitely writing articles and online content, where I linked back to my social media profiles at the end of those pieces of content.
 
-It turns out that I was also often presenting this content for doing talks. So my sustained growth on the social media platform was mostly due to publishing content at other places and linking back to LinkedIn. 
+It turns out that I was also often presenting this content for doing talks. So my sustained growth on the social media platform was mostly due to publishing content at other places and linking back to LinkedIn.
 
 ==> That is quite linked in. Badumm tsss.
 
@@ -154,7 +154,7 @@ Before that, we can see in 2015 that I was pretty normal. It felt pretty normal,
 
 I'll always remember in 2014 when my supervisor at Coveo, Guillaume Simard, told me that "only quite good people get to code new algorithms". This shaked me as coding algorithms was my favourite hobby and what I was best at. So I needed to prove I was good then, because I was young and motivated and excellent but I had nothing to show. I had won already a few coding competitions such as being [a regionnal winner at the CCC of Waterloo](https://cemc.math.uwaterloo.ca/contests/computing/2015/stage%201/2015CCCRegionalResults.pdf). Despite all of that, I was noob and I needed to evolve. That was the turning point in early 2015 in the chart where I've discovered the existence of machine learning at the same time, including the brand new field of deep learning. It was the way to go for coding new algorithms and innovating. I had to continue to be creative as creativity is a must - I was composing dubstep and drawing motion graphics / 3D things before going fully into the programming route. Here is a related recommendation of mine after this analysis:
 
-#### Some advice for young aspiring professionals seeking to land more job opportunities aligned with what they truly want to do: 
+#### Some advice for young aspiring professionals seeking to land more job opportunities aligned with what they truly want to do:
 
 Put some code or work online, however ugly it is in the first place (you may learn [Clean Code](https://github.com/guillaume-chevalier/Awesome-Deep-Learning-Resources/blob/master/README.md#books) after, no worries), and to explain it in talks at conferences and in the README file of your project.
 
@@ -175,7 +175,7 @@ plot_violins(df)
 ![png](LinkedIn-Connection-Plots_files/LinkedIn-Connection-Plots_12_0.png)
 
 
-It seems that in this violin plot, I've added most people during the week. I especially went on frenzies by Thursday, after what I probably just got pissed. 
+It seems that in this violin plot, I've added most people during the week. I especially went on frenzies by Thursday, after what I probably just got pissed.
 
 #### Let's now plot the counts of first names
 
@@ -190,13 +190,13 @@ plot_bar_column(df, "First Name")
 
 Hay hi! David, Alexandre, Philippe, Vincent, Éric Mathieu, and all the other Guillaumes. Your names are quite repetitives, sirs.
 
-*...but oops.* 
+*...but oops.*
 
 It looks like my network is dominated by males, as 100% of the top most-occuring names above are masculine. Well, unfortunately, that is a normal side effect from being way deep into the software industry and having worked on technical/coding stuff since like just forever.
 
 It also seems that my network, despite I have connections all around the globe, are mostly local when it comes to top name frequencies. That is logical as each other international connection has a name that has a higher probability to be radically different than what I'm used to. For instance, I estimate that more than 3/4 of my connections are international, but despite this, my network contains repetitive first names because of the 1/4th of local contacts, which makes sense.
 
-It's fun to note that during my bachelor I published scientific articles with other universities the most. I don't have a master nor Ph.D despite I could have done that accelerated and have already produced more research than the average Ph.D. so going that route felt like a loss of time. I'd have truly wanted to start a Ph.D. at the moment I started my bachelor and have felt like if I was chained during my whole bachelor, doing research elsewhere. 
+It's fun to note that during my bachelor I published scientific articles with other universities the most. I don't have a master nor Ph.D despite I could have done that accelerated and have already produced more research than the average Ph.D. so going that route felt like a loss of time. I'd have truly wanted to start a Ph.D. at the moment I started my bachelor and have felt like if I was chained during my whole bachelor, doing research elsewhere.
 
 #### Let's now plot where my contacts works the most
 
@@ -209,7 +209,7 @@ plot_bar_column(df, "Company")
 ![png](LinkedIn-Connection-Plots_files/LinkedIn-Connection-Plots_16_0.png)
 
 
-Most of my contacts are in fields of machine learning & data science, or otherwise do software development. Ironically, my city, Quebec City, is known for its numerous big insurance companies and public sector, and it seems that I'm completely out of the map on that point, rather focusing on something else in the private tech sector. 
+Most of my contacts are in fields of machine learning & data science, or otherwise do software development. Ironically, my city, Quebec City, is known for its numerous big insurance companies and public sector, and it seems that I'm completely out of the map on that point, rather focusing on something else in the private tech sector.
 
 #### What do my connections do?
 
@@ -222,7 +222,7 @@ plot_bar_column(df, "Position")
 ![png](LinkedIn-Connection-Plots_files/LinkedIn-Connection-Plots_18_0.png)
 
 
-Okay. I'm actually impressed here in contrast with the previous charts. Looking at names I was finding mostly local people that may be working in various sectors. But from title/position now it's clear that I'm connected with a quality network of data scientists, engineers, researchers, profs, and C-suite executives. 
+Okay. I'm actually impressed here in contrast with the previous charts. Looking at names I was finding mostly local people that may be working in various sectors. But from title/position now it's clear that I'm connected with a quality network of data scientists, engineers, researchers, profs, and C-suite executives.
 
 Let's now plot the same chart, but by using word (or short expressions) counts rather than exact titles using scikit-learn's word count vectorizer:
 
@@ -237,7 +237,7 @@ plot_nlp_cv(df)
 
 
 
-## Step 3: what about you? Try it and share it! 
+## Step 3: what about you? Try it and share it!
 
 Give it a try with your data. You may post your results it on LinkedIn as well.
 
@@ -245,20 +245,20 @@ Give it a try with your data. You may post your results it on LinkedIn as well.
 
 For the time being... you could also [connect with me on LinkedIn](https://www.linkedin.com/in/chevalierg/) and tag me in your post with your stats ;) I hope this can help you get insight in your LinkedIn profile's growth.
 
-Thank you! 
+Thank you!
 
 ## Conclusion
 
-I've been on LinkedIn for 6 years and 2 months or so. I've recently seen gaining approx 100 connections per month (roughly 3 connections per day), but it wasn't always like that. Having 2305 connections right now, that means I was growing at a rate of approx 31 connections per month in average over the 6 years and 2 months otherwise, or 1 connection per day. 
+I've been on LinkedIn for 6 years and 2 months or so. I've recently seen gaining approx 100 connections per month (roughly 3 connections per day), but it wasn't always like that. Having 2305 connections right now, that means I was growing at a rate of approx 31 connections per month in average over the 6 years and 2 months otherwise, or 1 connection per day.
 
 With the present statistics, I also now realize how dense is my LinkedIn network in terms of data scientists and related practitioners & executives. Accepting and sending connection requests in the day-to-day didn't feel that much focused on one thing, but I just now realize how targeted and concentrated my network is in this direction.
 
-I hope for the future of my growth to be even more massive. 
+I hope for the future of my growth to be even more massive.
 
 ___
 
 
-You can also find the related article on [my blog](https://github.com/guillaume-chevalier). 
+You can also find this article on [my blog](https://github.com/guillaume-chevalier). 
 
 
 
@@ -278,4 +278,3 @@ You can also find the related article on [my blog](https://github.com/guillaume-
     [NbConvertApp] Making directory LinkedIn-Connection-Plots_files
     [NbConvertApp] Making directory LinkedIn-Connection-Plots_files
     [NbConvertApp] Writing 4372 bytes to LinkedIn-Connection-Plots.md
-
