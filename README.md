@@ -253,7 +253,11 @@ I've been on LinkedIn for 6 years and 2 months or so. I've recently seen gaining
 
 With the present statistics, I also now realize how dense is my LinkedIn network in terms of data scientists and related practitioners & executives. Accepting and sending connection requests in the day-to-day didn't feel that much focused on one thing, but I just now realize how targeted and concentrated my network is in this direction.
 
-I hope for the future of my growth to be even more massive.
+I hope for the future of my growth to be even more massive, and yours too, my friend.
+
+___
+
+Want to connect with like-minded people? [Join my Slack Workspace today](https://join.slack.com/t/neuraxio/shared_invite/zt-8lyw42c5-4PuWjTT8dQqeFK3at1s_dQ)!
 
 ___
 
