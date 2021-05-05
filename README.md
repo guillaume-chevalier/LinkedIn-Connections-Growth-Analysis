@@ -245,6 +245,8 @@ Give it a try with your data. You may post your results it on LinkedIn as well.
 
 For the time being... you could also [connect with me on LinkedIn](https://www.linkedin.com/in/chevalierg/) and tag me in your post with your stats ;) I hope this can help you get insight in your LinkedIn profile's growth.
 
+Note that you can also book a meeting with me: [request my assistance in your coding project](https://www.service.neuraxio.com/start?utm_source=linkedin_connections_analysis).
+
 Thank you!
 
 ## Conclusion
