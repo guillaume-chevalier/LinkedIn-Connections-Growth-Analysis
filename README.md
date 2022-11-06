@@ -148,7 +148,7 @@ It turns out that I was also often presenting this content for doing talks. So m
 
 #### What brought me more connections?
 
-For instance, my [GitHub tutorials and projects on machine learning](https://github.com/guillaume-chevalier) caused a steady increase from the summer of 2016 when it boomed. I then continued to build GitHub projects and posting them. And recently in 2020, I've organized many [group trainings](https://www.neuraxio.com/en/time-series-solution) whilst creating some more related content and products along the way.
+For instance, my [GitHub tutorials and projects on machine learning](https://github.com/guillaume-chevalier) caused a steady increase from the summer of 2016 when it boomed. I then continued to build GitHub projects and posting them. And recently in 2020, I've organized many group trainings whilst creating some more related content and products along the way.
 
 Before that, we can see in 2015 that I was pretty normal. It felt pretty normal, too, until I started doing some more talks and being more involved, which was something I've deliberately started doing once I realized that the best opportunities wouldn't come to me magically by studying just what everybody else did study at school. Unsatisfied with my current roles, I started being more outgoing and doing talks to how I did some of my projects that were oriented towards innovation.
 
@@ -245,8 +245,6 @@ Give it a try with your data. You may post your results it on LinkedIn as well.
 
 For the time being... you could also [connect with me on LinkedIn](https://www.linkedin.com/in/chevalierg/) and tag me in your post with your stats ;) I hope this can help you get insight in your LinkedIn profile's growth.
 
-Note that you can also book a meeting with me: [request my assistance in your coding project](https://www.service.neuraxio.com/start?utm_source=linkedin_connections_analysis).
-
 Thank you!
 
 ## Conclusion
@@ -256,10 +254,6 @@ I've been on LinkedIn for 6 years and 2 months or so. I've recently seen gaining
 With the present statistics, I also now realize how dense is my LinkedIn network in terms of data scientists and related practitioners & executives. Accepting and sending connection requests in the day-to-day didn't feel that much focused on one thing, but I just now realize how targeted and concentrated my network is in this direction.
 
 I hope for the future of my growth to be even more massive, and yours too, my friend.
-
-___
-
-Want to connect with like-minded people? [Join my Slack Workspace today](https://join.slack.com/t/neuraxio/shared_invite/zt-8lyw42c5-4PuWjTT8dQqeFK3at1s_dQ)!
 
 ___
 
