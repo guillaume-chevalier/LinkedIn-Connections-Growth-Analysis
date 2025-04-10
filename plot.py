@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 
 FIGSIZE = (16, 9)
 FONT = {"family": "Share Tech Mono", "weight": "normal", "size": 16}
@@ -62,7 +62,7 @@ def plot_violins(df):
 
 def plot_bar_column(df, col):
     fnames = df[col].value_counts().head(30)
-    plot_fnames(fnames,col)
+    plot_fnames(fnames, col)
 
 
 def plot_nlp_cv(df):
@@ -72,14 +72,20 @@ def plot_nlp_cv(df):
     res = res.toarray().sum(axis=0)
 
     fnames = pd.DataFrame(
-        list(sorted(zip(res, tfidf.get_feature_names())))[-30:],
+        list(sorted(zip(res, tfidf.get_feature_names_out())))[-30:],
         columns=["Position by Words Freq", "Words"]
     )[::-1] 
     plot_fnames(fnames, "Position by Words Freq", "Words")
 
 
 def plot_fnames(fnames, col, index="index"):
-    fnames = fnames.reset_index()
+    if isinstance(fnames, pd.Series):
+        fnames = fnames.reset_index()
+        fnames.columns = [index, col]
+
+    FIGSIZE = (10, 6)
+    FONT = {'size': 10}
+    tds = 'blue'  # or any other color list or choice
 
     fig, ax = plt.subplots(figsize=FIGSIZE)
 
@@ -99,10 +105,8 @@ def plot_fnames(fnames, col, index="index"):
         size=FONT["size"],
     )
 
-    plt.ylabel("Nb occurences", fontdict=FONT)
-    plt.yticks()#[0, 5, 10, 15, 20])
+    plt.ylabel("Nb occurrences", fontdict=FONT)
     ax.set_frame_on(False)
     plt.grid(True)
 
     plt.show()
-
